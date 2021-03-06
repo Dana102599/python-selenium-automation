@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from behave import given, when, then
 
 
-@given('Open Amazonu page')
+@given('Open Amazon page')
 def open_amazon(context):
     context.app.sign_in_page.open_sign_in_page()
 

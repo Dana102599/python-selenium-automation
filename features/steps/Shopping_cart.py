@@ -1,7 +1,7 @@
 from behave import given, when, then
 
 
-@given('Open Amazone page')
+@given('Open Amazon page')
 def open_amazon(context):
     context.app.Shopping_cart_page.open_amazon_page()
 
